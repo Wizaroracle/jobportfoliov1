@@ -42,13 +42,15 @@ a {
    
   }
   
+
 .sideAbout{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 10%;
     margin-left: -8%;
-   overflow: auto;
+    height:  2200px;
+    
    
   }
 

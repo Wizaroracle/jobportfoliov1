@@ -853,6 +853,12 @@ section:nth-child(odd) .animate.scroll,
     .footer{
         padding: 2rem 4%;
     }
+   .contact span{
+   width: 0;
+   }
+   .home-imgHover{
+       overflow: hidden;
+   }
 }
 
 @media (max-width: 850px){

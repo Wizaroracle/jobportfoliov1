@@ -248,17 +248,20 @@ a {
 
 .titles {
     margin-left: 10%;
-   
+    margin-top: -100px;   
 }
+
+
 
 /* POP UP MENU */
 
 
   /*=============== BREAKPOINTS ===============*/
   /* For small devices */
-  @media screen and (max-width: 320px) {
+  /* @media screen and (max-width: 320px) {
     .container {
       margin-inline: 1rem;
+      margin-bottom: -100px
     }
     .card__article {
       padding: 2rem 1rem;
@@ -269,16 +272,63 @@ a {
     .card__scale-2 {
       top: 3rem;
     }
-  }
-  /* For medium devices */
-  @media screen and (min-width: 576px) {
+  } */
+
+  @media screen and (max-width: 520px) {
     .card__container {
       grid-template-columns: 328px;
+      margin-left: -94px;
+      transform: scale(0.7);
+      
+    }
+    .container .heading{
+      margin-top: 100px;
+      margin-left: -19px;
+      margin-bottom: 98px;
     }
   }
   @media screen and (min-width: 768px) {
     .card__container {
       grid-template-columns: repeat(2, 328px);
+      margin-left: -66px;
+    }
+  }
+
+
+  @media screen and (max-width: 600px) {
+    .card__container {
+      grid-template-columns: 328px;
+      margin-left: -94px;
+      transform: scale(0.7);
+      margin-top: -630px;
+    }
+    .container .heading{
+      margin-top: 100px;
+      margin-left: -19px;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .card__container {
+      grid-template-columns: repeat(2, 328px);
+      margin-left: -66px;
+    }
+  }
+
+
+  /* For medium devices */
+  @media screen and (min-width: 576px) {
+    .card__container {
+      grid-template-columns: 328px;
+      margin-left: -100px;
+    }
+    .container .heading{
+      margin-top: 100px;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .card__container {
+      grid-template-columns: repeat(2, 328px);
+      margin-left: -66px;
     }
   }
   /* For large devices */

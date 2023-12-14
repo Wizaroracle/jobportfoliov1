@@ -95,48 +95,6 @@ body {
 
 
 
-.navbar2{
-    flex: 1;
-    text-align: right;
-    display: flex;
-    flex-direction: column;
-}
-
-.navbar2 a{
-    text-align: center;
-    font-size: 2.2rem;
-    color: var(--text-color);
-    font-weight: 500;
-    margin-left: 3.5rem;
-    transition: .3s;
-}
-.navbar2 a:hover,
-.navbar2 a.active{
-
-    color: var(--main-color);
-}
-
-.navbar2 ul li {
-    list-style: none;
-    margin-top: 30px;
-    margin-bottom: 60px;
-    margin-right: -380px;
-}
-
-.navbar2 img {
-    width: 90px;
-    height: 90px;
-}
-
-.navbar2 .certs{
-   height: 110px;
-}
-
-.navbar2 .exps{
-    height: 110px;
-    width: 100px;
- }
- 
 
 
 .about-imgs {
